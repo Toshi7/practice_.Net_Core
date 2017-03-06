@@ -4,16 +4,20 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "Microsoft.NETCore.App": "1.1.0",
+    "xunit": "2.2.0"
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.1"
-        }
       },
       "imports": "dnxcore50"
     }
-  }
+  },
+  "runtimes": {
+    "win8-x64": {},
+    "osx.10.10-x64": {}
+  },
+  "userSecretsId": "aspnet-CharacterCounter-20170306110212"
 }

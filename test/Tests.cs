@@ -1,6 +1,6 @@
 ﻿using System;
-using Xunit;
 using Library;
+using Xunit;
 
 namespace CharacterCounterTests
 {
