@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CharacterCounter", "CharacterCounter.xproj", "{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{60F617EE-9EA8-402C-94D7-10FF2EA212BD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "test", "test\test.xproj", "{4B189ACD-AA61-47C8-98FA-F54799D7E132}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CharacterCounterLib", "src\CharacterCounterLib\CharacterCounterLib.xproj", "{28CDD08C-6399-42D3-81FD-953BC02ED6B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,19 @@ Global
 		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B189ACD-AA61-47C8-98FA-F54799D7E132} = {60F617EE-9EA8-402C-94D7-10FF2EA212BD}
 	EndGlobalSection
 EndGlobal

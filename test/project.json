@@ -9,7 +9,8 @@
     "CharacterCounterLib": {
       "target": "project"
     },
-    "xunit": "2.2.0"
+    "xunit": "2.2.0",
+    "FluentAssertions": "4.19.1"
   },
   "testRunner": "xunit",
   "frameworks": {
