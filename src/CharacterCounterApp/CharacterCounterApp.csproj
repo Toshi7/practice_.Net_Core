@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>CharacterCounterApp</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>CharacterCounterApp</PackageId>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CharacterCounterLib\CharacterCounterLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CharacterCounterLib">
+      <HintPath>..\..\..\..\Users\User\Desktop\CharacterCounter\CharacterCounter\src\CharacterCounterLib\bin\Debug\netcoreapp1.0\CharacterCounterLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CharacterCounterApp": {
+      "commandName": "Project",
+      "commandLineArgs": "Program.cs"
+    }
+  }
+}
