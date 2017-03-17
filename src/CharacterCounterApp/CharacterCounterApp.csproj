@@ -14,4 +14,10 @@
     <ProjectReference Include="..\CharacterCounterLib\CharacterCounterLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="CharacterCounterLib">
+      <HintPath>..\..\..\..\Users\User\Desktop\CharacterCounter\CharacterCounter\src\CharacterCounterLib\bin\Debug\netcoreapp1.0\CharacterCounterLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

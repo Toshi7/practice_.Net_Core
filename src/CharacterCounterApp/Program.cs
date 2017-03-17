@@ -11,7 +11,7 @@ namespace ConsoleApplication
         public static void Main(string[] args)
         {
             string phrase;
-            if(args.Length == 0)
+            if (args.Length == 1)
             {
                 Console.WriteLine("Enter a phrase");
                 phrase = Console.ReadLine();
@@ -25,13 +25,16 @@ namespace ConsoleApplication
                 }
                 phrase = File.ReadAllText(args[0]);
             }
+
             CharacterCounter counter = new CharacterCounter();
 
             counter.ParseString(phrase);
+            Console.WriteLine(phrase);
             foreach (var letter in Alphabet)
             {
                 Console.WriteLine("{0} : {1}", letter, counter.GetCountForLetter(letter));
             }
+            Console.ReadLine();
         }
     }
 }

@@ -25,6 +25,7 @@ namespace Library
             {
                 if (Char.IsLetter(letter))
                     _counts[letter] = _counts[letter] + 1;
+                Console.Write(letter);
             }
         }
         public int GetCountForLetter(char letter)

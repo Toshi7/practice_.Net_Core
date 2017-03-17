@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CharacterCounter", "CharacterCounter.xproj", "{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{60F617EE-9EA8-402C-94D7-10FF2EA212BD}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "test", "test\test.xproj", "{4B189ACD-AA61-47C8-98FA-F54799D7E132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{5AEC1D2D-A092-41DF-8C15-9824FD128EE9}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CharacterCounterLib", "src\CharacterCounterLib\CharacterCounterLib.xproj", "{28CDD08C-6399-42D3-81FD-953BC02ED6B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCounterApp", "src\CharacterCounterApp\CharacterCounterApp.csproj", "{B6060C3C-0263-4CBD-B04E-2B3890184196}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CharacterCounterLib", "src\CharacterCounterLib\CharacterCounterLib.csproj", "{8D7923D0-3A80-458B-B072-22E1A3BC9E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,23 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96DA24FE-909F-4EB8-AF3F-98EA2CDFBA87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B189ACD-AA61-47C8-98FA-F54799D7E132}.Release|Any CPU.Build.0 = Release|Any CPU
-		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28CDD08C-6399-42D3-81FD-953BC02ED6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEC1D2D-A092-41DF-8C15-9824FD128EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEC1D2D-A092-41DF-8C15-9824FD128EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEC1D2D-A092-41DF-8C15-9824FD128EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEC1D2D-A092-41DF-8C15-9824FD128EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6060C3C-0263-4CBD-B04E-2B3890184196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6060C3C-0263-4CBD-B04E-2B3890184196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6060C3C-0263-4CBD-B04E-2B3890184196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6060C3C-0263-4CBD-B04E-2B3890184196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7923D0-3A80-458B-B072-22E1A3BC9E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7923D0-3A80-458B-B072-22E1A3BC9E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7923D0-3A80-458B-B072-22E1A3BC9E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7923D0-3A80-458B-B072-22E1A3BC9E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4B189ACD-AA61-47C8-98FA-F54799D7E132} = {60F617EE-9EA8-402C-94D7-10FF2EA212BD}
+		{5AEC1D2D-A092-41DF-8C15-9824FD128EE9} = {60F617EE-9EA8-402C-94D7-10FF2EA212BD}
 	EndGlobalSection
 EndGlobal

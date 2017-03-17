@@ -12,7 +12,7 @@ namespace CharacterCounterTests
         {
             CharacterCounter counter = new CharacterCounter();
             counter.ParseString("aaadda");
-            counter.GetCountForLetter('a').Should().Be(4);
+            counter.GetCountForLetter('d').Should().Be(2);
             //counter.Equal(4, counter.GetCountForLetter('a'));
             //            Assert.Equal(4, counter.GetCountForLetter('a'));
         }

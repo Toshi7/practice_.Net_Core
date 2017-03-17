@@ -5,6 +5,7 @@
     <DebugType>portable</DebugType>
     <AssemblyName>CharacterCounterLib</AssemblyName>
     <PackageId>CharacterCounterLib</PackageId>
+    <RuntimeIdentifiers>win8-x64</RuntimeIdentifiers>
     <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
   </PropertyGroup>
